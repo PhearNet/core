@@ -10,7 +10,7 @@
     "ip-subnet-calculator": "^1.0.2",
     "kue": "^0.10.4",
     "moment": "^2.10.6",
-    "q": "^1.4.1"
+    "q": "^2.0.1"
   },
   "description": "shared library for phearnet",
   "main": "index.js",
