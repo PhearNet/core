@@ -8,9 +8,10 @@
     "cradle": "^0.6.9",
     "ip": "^1.1.0",
     "ip-subnet-calculator": "^1.0.2",
-    "kue": "^0.10.4",
+    "kue": "^0.11.2",
     "moment": "^2.10.6",
-    "q": "^2.0.1"
+    "q": "^2.0.1",
+    "snyk": "^1.317.0"
   },
   "description": "shared library for phearnet",
   "main": "index.js",
@@ -24,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/PhearNet/core/issues"
   },
-  "homepage": "https://github.com/PhearNet/core#readme"
+  "homepage": "https://github.com/PhearNet/core#readme",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
